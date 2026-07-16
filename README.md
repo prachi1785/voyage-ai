@@ -19,17 +19,31 @@ A premium, modern MERN stack web application designed to help travelers plan, bu
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 19** (Vite-powered for rapid hot module replacement)
-- **Vanilla CSS** with HSL-tailored colors, smooth gradients, and glassmorphism styling
-- **Lucide React** for modern iconography
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFF?style=for-the-badge&logo=vite&logoColor=FFD62B)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+- **React 19** – Vite-powered for rapid development and hot module replacement.
+- **Vanilla CSS** – Styled with customized HSL color systems, glassmorphism, and responsive design.
+- **Lucide Icons** – Crisp, modern SVG icons for clean aesthetics.
 
 ### Backend
-- **Node.js** & **Express.js** for serverless API endpoints
-- **MongoDB** & **Mongoose** for data modeling
-- **MongoDB Memory Server** for seamless local prototyping without requiring DB setups
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 
-### Deployment
-- **Vercel** (configured for monorepo deployments using Serverless Functions)
+- **Node.js & Express** – Scalable serverless API route controllers.
+- **MongoDB & Mongoose** – Document-oriented data schemas and collections.
+- **In-Memory DB Server** – Automatic local fallback using `mongodb-memory-server`.
+
+### Deployment & Tooling
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+- **Vercel** – Seamless monorepo builds with Serverless functions mapping.
+- **Git & GitHub** – Strict version control and automated deployments.
 
 ---
 
