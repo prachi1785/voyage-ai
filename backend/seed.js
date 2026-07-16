@@ -114,7 +114,12 @@ const runSeed = async () => {
 };
 
 // Export to be used by server.js or conditionally run directly
+runSeed.destinationsData = destinationsData;
+runSeed.reviewsData = reviewsData;
+runSeed.itineraryData = itineraryData;
+runSeed.expensesData = expensesData;
 module.exports = runSeed;
+
 
 if (require.main === module) {
   // If run directly and not imported
